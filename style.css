@@ -1,0 +1,180 @@
+nav {
+    background-color: black; /* Black background */
+    color: white; /* White text */
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow */
+    border: 2px solid cyan; /* Cyan border */
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Arrange items horizontally */
+    justify-content: center; /* Center align items */
+  }
+  
+  nav li {
+    margin: 0 10px; /* Add spacing between list items */
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove default link underline */
+    color: white; /* White text color */
+    font-weight: bold; /* Make text bold */
+    background-color: black; /* Black background for links */
+    padding: 10px 20px; /* Add some padding to the links */
+    font-size: 30px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  
+  nav a:hover { /* Apply hover effect to links */
+    background-color: cyan; /* Cyan background on hover */
+    color: black; /* Black text on hover */
+  }
+
+  .h1{
+    color: white;
+    font-size: 100px;
+  }
+
+  .styled-box {
+    background-color: cyan;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    width: 80%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+nav {
+    background-color: black; /* Black background */
+    color: white; /* White text */
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow */
+    border: 2px solid cyan; /* Cyan border */
+    position: fixed; /* Make the navbar fixed to the viewport */
+    top: 0; /* Position it at the top of the screen */
+    width: 100%; /* Make it full width */
+    z-index: 10; /* Ensure it stays above other content */
+  }
+
+  .h2{
+    color: white;
+    font-size: 50px;
+  }
+
+  /* Style for WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: cyan; /* Color of the scrollbar thumb */
+    border-radius: 8px; /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: darkcyan; /* Darker color when hovering over the thumb */
+}
+
+/* Style for Firefox */
+scrollbar {
+    width: 12px;
+}
+
+scrollbar-track {
+    background: #f0f0f0;
+}
+
+scrollbar-thumb {
+    background: cyan;
+    border-radius: 8px;
+}
+
+scrollbar-thumb:hover {
+    background: darkcyan;
+}
+
+/* Edge/Chrome with newer specifications */
+:root {
+    scrollbar-width: thin; /* Set scrollbar width */
+    scrollbar-color: cyan #f0f0f0; /* Color of the scrollbar thumb and track */
+}
+
+
+
+.container {
+  display: flex;
+  gap: 20px; /* Space between panels */
+  margin-left: 25%;
+}
+
+.panel {
+  background-color: #00FFFF; /* Cyan blue background */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  width: 200px; /* Adjust width as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.panel img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #000000; /* Bootstrap primary button color */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+  background-color: #ffffff; /* Darker shade for hover effect */
+  color: rgb(0, 0, 0);
+}
+
+.styled-box1 {
+  background-color: cyan;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  width: 95%;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.align{
+  text-align: left;
+}
+
+.img{
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
